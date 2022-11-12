@@ -18,11 +18,11 @@ With this mod, the following cvars are available:
 3. Download the latest version of Speedo at the [releases](https://github.com/jpiolho/QuakeReloaded-Speedo/releases) page
 
 # FAQ
-## How does the meter work?
+### How does the meter work?
 The meter calculates speed by getting the distance between the last frame and the current frame. Then saves the highest speed achieved between UI updates and displays the highest speed achieved during that update cycle.
 
-## Does it work in multiplayer?
-Yes
+### Does it work in multiplayer?
+Yes. The speed calculation is all done on client-side and relies on the position of the player camera.
 
-## Does it work with X mod?
-Yes
+### Does it work with X mod?
+Yes it should be compatible with most, if not all, mods.
