@@ -9,7 +9,7 @@ With this mod, the following cvars are available:
 * `scr_speed` - 0: Off, 1: Normal, 2: Horizontal speed only
 * `scr_speed_x` - Customize the X position of the velocity meter
 * `scr_speed_y` - Customize the Y position of the velocity meter
-* `scr_speed_style` - 0: Normal, 1: Minimalist
+* `scr_speed_style` - 0: Normal, 1: Minimalist, 2: Normal with decimal, 3: Minimalist with decimal
 * `scr_speed_update` - How fast the meter should update (in seconds). Bigger numbers means the number is more stable and accurate whereas smaller values are more noisy.
 
 # How to install

@@ -65,8 +65,8 @@ namespace Speedo
 
             qreloaded.Events.RegisterOnPreInitialize(() =>
             {
-                _cvarSpeed = qreloaded.Cvars.Register("scr_speed", "0", "Draws a velocity meter on the screen. 0 = Off, 1 = Normal, 2 = Horizontal speed only", CvarFlags.Integer | CvarFlags.Saved, 0, 1);
-                _cvarSpeedStyle = qreloaded.Cvars.Register("scr_speed_style", "0", "0 = Normal, 1 = Minimalist, 2 = Normal with decimal, 3 = Minimalist with decimal", CvarFlags.Integer | CvarFlags.Saved, 0, 1);
+                _cvarSpeed = qreloaded.Cvars.Register("scr_speed", "0", "Draws a velocity meter on the screen. 0 = Off, 1 = Normal, 2 = Horizontal speed only", CvarFlags.Integer | CvarFlags.Saved, 0, 2);
+                _cvarSpeedStyle = qreloaded.Cvars.Register("scr_speed_style", "0", "0 = Normal, 1 = Minimalist, 2 = Normal with decimal, 3 = Minimalist with decimal", CvarFlags.Integer | CvarFlags.Saved, 0, 3);
                 _cvarSpeedUpdate = qreloaded.Cvars.Register("scr_speed_update", "0.2", "How frequent it should update. Note that higher value will be more constant whereas smaller will include more noise", CvarFlags.Float | CvarFlags.Saved, 0, 10);
                 _cvarSpeedX = qreloaded.Cvars.Register("scr_speed_x", "0.10", "X position of the velocity meter (0: Left edge, 1: Right edge)", CvarFlags.Float | CvarFlags.Saved, 0, 1);
                 _cvarSpeedY = qreloaded.Cvars.Register("scr_speed_y", "0.70", "Y position of the velocity meter (0: Top edge, 1: Bottom edge)", CvarFlags.Float | CvarFlags.Saved, 0, 1);
