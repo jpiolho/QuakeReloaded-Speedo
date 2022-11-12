@@ -26,3 +26,6 @@ Yes. The speed calculation is all done on client-side and relies on the position
 
 ### Does it work with X mod?
 Yes it should be compatible with most, if not all, mods.
+
+### Why is the velocity jittery / noisy?
+This is due to the way the velocity is calculated and extrapolated. Since it relies on camera position, and not an actual velocity variable.
