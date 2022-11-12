@@ -1,0 +1,21 @@
+{
+  "ModId": "quakeenhanced.mod.speedo",
+  "ModName": "Speedo",
+  "ModAuthor": "JPiolho",
+  "ModVersion": "1.0.0",
+  "ModDescription": "Adds a velocity meter to the UI",
+  "ModDll": "Speedo.dll",
+  "ModIcon": "Preview.png",
+  "ModR2RManagedDll32": "x86/Speedo.dll",
+  "ModR2RManagedDll64": "x64/Speedo.dll",
+  "ModNativeDll32": "",
+  "ModNativeDll64": "",
+  "IsLibrary": false,
+  "ReleaseMetadataFileName": "Speedo.ReleaseMetadata.json",
+  "PluginData": {},
+  "IsUniversalMod": false,
+  "ModDependencies": [ "reloaded.sharedlib.hooks", "quakeenhanced.mod.quakereloaded", "Reloaded.Memory.SigScan.ReloadedII" ],
+  "OptionalDependencies": [],
+  "SupportedAppId": [ "quake_x64_steam.exe" ],
+  "ProjectUrl": ""
+}
