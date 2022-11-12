@@ -21,8 +21,8 @@ env:
   PUBLISH_CHANGELOG_PATH: ./Publish/Changelog.md
   PUBLISH_PATH: ./Publish
   
-  CSPROJ_PATH: ./Qlock/Qlock.csproj
-  RELOADEDII_PACKAGENAME: Qlock
+  CSPROJ_PATH: ./Speedo/Speedo.csproj
+  RELOADEDII_PACKAGENAME: Speedo
   
   RELOADEDIIMODS: .
   
