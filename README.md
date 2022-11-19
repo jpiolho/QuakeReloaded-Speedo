@@ -14,8 +14,7 @@ With this mod, the following cvars are available:
 
 # How to install
 1. Download and install [Reloaded-II](https://github.com/Reloaded-Project/Reloaded-II) if you don't have it
-2. Install [QuakeReloaded](https://github.com/jpiolho/QuakeReloaded) mod if you don't have it
-3. Download the latest version of Speedo at the [releases](https://github.com/jpiolho/QuakeReloaded-Speedo/releases) page
+2. [**Click here**](https://jpiolho.github.io/QuakeReloaded/installmod.html?username=jpiolho&repo=QuakeReloaded-Speedo&file=Speedo{tag}.7z&latestVersion=1)
 
 # FAQ
 ### How does the meter work?
