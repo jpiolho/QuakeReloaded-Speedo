@@ -22,7 +22,7 @@ env:
   PUBLISH_PATH: ./Publish
   
   CSPROJ_PATH: ./Speedo/Speedo.csproj
-  MODCONFIG_PATH: ./Speedo/Speedo.json
+  MODCONFIG_PATH: ./Speedo/ModConfig.json
   RELOADEDII_PACKAGENAME: Speedo
   
   RELOADEDIIMODS: .
